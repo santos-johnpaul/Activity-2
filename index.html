@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Team CV</title>
+</head>
+<body>
+
+    <div class="navbar">
+        <!-- Updated logo with an image -->
+        <div class="logo">Team <span class="logo-highlight">CV</span></div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="jpResume.html">John Paul Santos</a>
+            <a href="QuiambaoResume.html">Santiago Quiambao III</a>
+            <a href="GuisihanResume.html">Russel Guisihan</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <h1>Welcome to our Team CV</h1>
+
+        <!-- Team Member 1 -->
+        <div class="team-member">
+            <div class="profile-picture">
+                <img class="circular-image" src="photo/jp.jpg" alt="John Paul Santos">
+            </div>
+            <h2>John Paul Santos</h2>
+            <p>Position: Web Developer</p>
+            <p>Experience: 5 years</p>
+            <p>Email: johnpaul@example.com</p>
+            <!-- Add more information as needed -->
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="team-member">
+            <div class="profile-picture">
+                <img class="circular-image" src="photo/3rd.jpg"alt="Santiago Quiambao III">
+            </div>
+            <h2>Santiago Quiambao III</h2>
+            <p>Position: Graphic Designer</p>
+            <p>Experience: 3 years</p>
+            <p>Email: santiago@example.com</p>
+            <!-- Add more information as needed -->
+        </div>
+
+        <div class="team-member">
+          <div class="profile-picture">
+            <img class ="circular-image"src="photo/sira.jpeg" alt="Russel Guisihan">
+          </div>
+            <h2>Russel Guisihan</h2>
+            <p>Position: Graphic Designer</p>
+            <p>Experience: 3 years</p>
+            <p>Email: russel@example.com</p>
+      </div>
+
+ 
+</body>
+</html>
+
+
+
+
+<style>
+/* Add these styles to your existing styles.css file */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f2f2f2; /* Set the background color */
+}
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  padding: 15px 20px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5em;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffcc00; /* Change the color on hover */
+}
+
+.content {
+  padding: 20px;
+}
+
+/* Optional: Add media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .nav-links {
+      margin-top: 15px;
+  }
+
+  .nav-links a {
+      margin: 10px 0;
+  }
+}
+
+/* Add these styles to your existing styles.css file */
+
+.team-member {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.team-member h2 {
+  color: #333;
+}
+
+.team-member p {
+  margin: 5px 0;
+  color: #777;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.logo-highlight {
+  color: #ffcc00; /* Highlight color for the logo */
+}
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  padding: 15px 20px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffcc00; /* Change the color on hover */
+}
+
+/* Add these styles to your existing styles.css file */
+
+.profile-picture {
+  width: 100px; /* Set the width of the circular image */
+  height: 100px; /* Set the height of the circular image */
+  overflow: hidden;
+  border-radius: 50%; /* Create a circular shape */
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.circular-image {
+  width: 100%; /* Make the image fill the container */
+  height: auto;
+  display: block;
+  border-radius: 50%; /* Ensure the image remains circular */
+}
