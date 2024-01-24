@@ -64,17 +64,17 @@
 
 
 <style>
-/* Add these styles to your existing styles.css file */
+/* Updated styles for a more beautiful and colorful home page */
 
 body {
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
-  background-color: #f2f2f2; /* Set the background color */
+  background-color: #e6e6e6; /* Light gray background */
 }
 
 .navbar {
-  background-color: #333;
+  background-color: #4a90e2; /* Blue navbar background */
   overflow: hidden;
   padding: 15px 20px;
   color: #fff;
@@ -84,7 +84,8 @@ body {
 }
 
 .logo {
-  font-size: 1.5em;
+  font-size: 2em; /* Larger logo font size */
+  color: #ffcc00; /* Yellow logo color */
 }
 
 .nav-links a {
@@ -95,35 +96,20 @@ body {
 }
 
 .nav-links a:hover {
-  color: #ffcc00; /* Change the color on hover */
+  color: #ffcc00; /* Yellow color on hover */
 }
 
 .content {
   padding: 20px;
 }
 
-/* Optional: Add media queries for responsiveness */
-@media screen and (max-width: 768px) {
-  .navbar {
-      flex-direction: column;
-      align-items: flex-start;
-  }
-
-  .nav-links {
-      margin-top: 15px;
-  }
-
-  .nav-links a {
-      margin: 10px 0;
-  }
-}
-
-/* Add these styles to your existing styles.css file */
-
 .team-member {
-  border: 1px solid #ddd;
-  padding: 15px;
-  margin-bottom: 20px;
+  border: 2px solid #4a90e2; /* Blue border for team members */
+  padding: 20px;
+  margin-bottom: 30px; /* Increased margin */
+  background-color: #fff; /* White background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
 }
 
 .team-member h2 {
@@ -131,53 +117,34 @@ body {
 }
 
 .team-member p {
-  margin: 5px 0;
-  color: #777;
-}
-
-.logo {
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
-.logo-highlight {
-  color: #ffcc00; /* Highlight color for the logo */
-}
-
-.navbar {
-  background-color: #333;
-  overflow: hidden;
-  padding: 15px 20px;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav-links a {
-  color: #fff;
-  text-decoration: none;
-  margin: 0 15px;
-  transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
-  color: #ffcc00; /* Change the color on hover */
-}
-
-/* Add these styles to your existing styles.css file */
-
-.profile-picture {
-  width: 100px; /* Set the width of the circular image */
-  height: 100px; /* Set the height of the circular image */
-  overflow: hidden;
-  border-radius: 50%; /* Create a circular shape */
-  margin-right: 20px; /* Adjust the margin as needed */
+  margin: 10px 0;
+  color: #555;
 }
 
 .circular-image {
-  width: 100%; /* Make the image fill the container */
+  width: 100%;
   height: auto;
   display: block;
-  border-radius: 50%; /* Ensure the image remains circular */
+  border-radius: 50%;
+  border: 5px solid #4a90e2; /* Blue border for circular image */
+}
+
+h1 {
+  color: #4a90e2; /* Blue heading color */
+}
+
+/* Additional styles for responsive design */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    margin-top: 15px;
+  }
+
+  .nav-links a {
+    margin: 10px 0;
+  }
 }
